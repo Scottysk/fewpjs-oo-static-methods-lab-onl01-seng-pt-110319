@@ -8,9 +8,17 @@ class Formatter {
   }
   
   static titleize(str) {
-    let exceptWords = ['the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from']
-    let capiitalizeString = str.charAt(0).toUpperCase() + str.slice(1)
-    
+    let exceptWords = ['the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from'];
+    let capitalizeString = str.charAt(0).toUpperCase() + str.slice(1);
+    let parseString = capitalizeString.split(" ");
+    return parseString.map(string => {
+      if (exceptWords.includes(string)) { 
+        return str;
+      } else {
+        return str.charAt(0).toUpperCase + string.slice(1);
+      }
+        
+    }).join(" ");
   }
   
 }
