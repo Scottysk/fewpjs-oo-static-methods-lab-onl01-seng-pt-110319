@@ -12,7 +12,7 @@ class Formatter {
     let capitalizeString = str.charAt(0).toUpperCase() + str.slice(1);
     let parseString = capitalizeString.split(" ");
     return parseString.map(str => {
-      if (exceptWords.includes(string)) { 
+      if (exceptWords.includes(str)) { 
         return str;
       } else {
         return str.charAt(0).toUpperCase + str.slice(1);
