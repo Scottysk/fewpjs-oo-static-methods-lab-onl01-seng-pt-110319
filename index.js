@@ -8,7 +8,8 @@ class Formatter {
   }
   
   static titleize(str) {
-    let 
+    let exceptWords = ['the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from']
+    let capi
   }
   
 }
