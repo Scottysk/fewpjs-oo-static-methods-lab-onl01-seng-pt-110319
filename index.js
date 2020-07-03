@@ -1,6 +1,6 @@
 class Formatter {
   static capitalize() {
-    return("A");
+    return("Alligator");
   }
   
   static sanitize() {
