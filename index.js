@@ -7,8 +7,8 @@ class Formatter {
     return str.replace( /[^A-Za-z0-9 '-]/g, '');
   }
   
-  static titleize() {
-    
+  static titleize(str) {
+    let 
   }
   
 }
