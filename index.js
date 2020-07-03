@@ -9,7 +9,8 @@ class Formatter {
   
   static titleize(str) {
     let exceptWords = ['the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from']
-    let capi
+    let capiitalizeString = str.charAt(0).toUpperCase() + str.slice(1)
+    
   }
   
 }
