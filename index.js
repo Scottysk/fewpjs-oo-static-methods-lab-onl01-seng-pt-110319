@@ -11,7 +11,7 @@ class Formatter {
     let exceptWords = ['the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from'];
     let capitalizeString = str.charAt(0).toUpperCase() + str.slice(1);
     let parseString = capitalizeString.split(" ");
-    return parseString.map(string => {
+    return parseString.map(str => {
       if (exceptWords.includes(string)) { 
         return str;
       } else {
