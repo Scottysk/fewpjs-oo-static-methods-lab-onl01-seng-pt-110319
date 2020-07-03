@@ -1,6 +1,6 @@
 class Formatter {
   static capitalize() {
-    return("Alligator");
+    console.log("A");
   }
   
   static sanitize() {
